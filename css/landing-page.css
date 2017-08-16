@@ -10,10 +10,26 @@ html {
     height: 100%;
 }
 
+@font-face {
+    font-family: "ROBO";
+    src: url(../fonts/ROBO.ttf)
+}
+
+@font-face {
+    font-family: "Courier New";
+    src: url(../fonts/courier-new.ttf)
+}
+
 body,
-h1,
+h1{
+    font-family: "ROBO","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
 h2,
-h3,
+h3{
+    font-family: "Courier New","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+}
 h4,
 h5,
 h6 {
@@ -31,8 +47,6 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
     text-align: center;
     height: 100%;
     width: 100%;
@@ -163,7 +177,6 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
     background-color: #f8f8f8;
 }
 
